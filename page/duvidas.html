@@ -1,18 +1,597 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore o Mundo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Criação temporaria só por esse commit -->
+    <style>
+      header {
+        background-image: url("https://picsum.photos/2000/2000?random=1");
+      }
+      .borda-header {
+        border-bottom: 4px solid #f0941f;
+      }
+      .background-nav {
+        background-color: none;
+      }
+      .header-overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore o Mundo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
-    defer></script>
+  <body>
+    <!-- Header -->
 
-</head>
+    <header>
+      <div class="container-fluid borda-header">
+        <nav class="navbar navbar-expand-lg background-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Explore the World</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobrenos.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./duvidas.html"
+                    >Dúvidas</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="container-fluid text-center text-light header-overlay p-5 my-5"
+        >
+          <h1>Dúvidas frequentes</h1>
+          <p>lorem ipsum</p>
+        </div>
+        <br />
+      </div>
+    </header>
 
-<body></body>
+    <!-- Fim Header -->
 
+    <!-- Section Dúvidas -->
+
+    <section class="mt-5">
+      <div class="container">
+        <h2 class="text-center my-5">Sobre a Agência</h2>
+        <div class="container">
+          <div class="accordion" id="accordionAgencia">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseAg1"
+                  aria-expanded="false"
+                  aria-controls="collapseAg1"
+                >
+                  ❓ O que é a Explore o Mundo?
+                </button>
+              </h2>
+              <div
+                id="collapseAg1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionAgencia"
+              >
+                <div class="accordion-body">
+                  💬 A Explore o Mundo é uma agência de viagens especializada em
+                  turismo de imersão na natureza, oferecendo experiências
+                  autênticas e sustentáveis em destinos nacionais e
+                  internacionais.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseAg2"
+                  aria-expanded="false"
+                  aria-controls="collapseAg2"
+                >
+                  ❓ A Explore o Mundo é uma agência confiável?
+                </button>
+              </h2>
+              <div
+                id="collapseAg2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionAgencia"
+              >
+                <div class="accordion-body">
+                  💬 Sim! Trabalhamos com guias experientes, parcerias
+                  certificadas e oferecemos suporte completo antes, durante e
+                  depois da viagem.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-5">Sobre os Pacotes de Viagem</h2>
+        <div class="container">
+          <div class="accordion" id="accordionPacotes">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePa1"
+                  aria-expanded="false"
+                  aria-controls="collapsePa1"
+                >
+                  ❓ Os pacotes são personalizáveis?
+                </button>
+              </h2>
+              <div
+                id="collapsePa1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPacotes"
+              >
+                <div class="accordion-body">
+                  💬 Sim! Podemos ajustar roteiros, hospedagens e atividades
+                  para atender melhor às suas preferências.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePa2"
+                  aria-expanded="false"
+                  aria-controls="collapsePa2"
+                >
+                  ❓ O que está incluso nos pacotes?
+                </button>
+              </h2>
+              <div
+                id="collapsePa2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPacotes"
+              >
+                <div class="accordion-body">
+                  💬 A maioria dos pacotes inclui:
+                  <ul class="list-unstyled">
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✅ Hospedagem ecológica 🏕️
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✅ Transporte terrestre dentro do destino 🚍
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✅ Café da manhã e algumas refeições 🍽️
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✅ Atividades guiadas 🎒
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✅ Seguro-viagem opcional ⛑️
+                    </li>
+                  </ul>
+                  (Os detalhes de cada pacote podem ser encontrados na página
+                  correspondente).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePa3"
+                  aria-expanded="false"
+                  aria-controls="collapsePa3"
+                >
+                  ❓ Os pacotes incluem passagens aéreas?
+                </button>
+              </h2>
+              <div
+                id="collapsePa3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPacotes"
+              >
+                <div class="accordion-body">
+                  💬 Não. As passagens aéreas são adquiridas separadamente, mas
+                  podemos ajudar na busca pelas melhores opções.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePa4"
+                  aria-expanded="false"
+                  aria-controls="collapsePa4"
+                >
+                  ❓ Quais são os tipos de hospedagem oferecidos?
+                </button>
+              </h2>
+              <div
+                id="collapsePa4"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPacotes"
+              >
+                <div class="accordion-body">
+                  💬 Trabalhamos com eco-lodges, glampings, pousadas
+                  sustentáveis e hospedagens locais, sempre priorizando conforto
+                  e conexão com a natureza.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-5">Sobre a Reserva e Pagamento</h2>
+        <div class="container">
+          <div class="accordion" id="accordionReservas">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseRe1"
+                  aria-expanded="false"
+                  aria-controls="collapseRe1"
+                >
+                  ❓ Como faço para reservar um pacote?
+                </button>
+              </h2>
+              <div
+                id="collapseRe1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionReservas"
+              >
+                <div class="accordion-body">
+                  💬 Basta acessar a página Reservas, preencher o formulário e
+                  aguardar a confirmação da nossa equipe.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseRe2"
+                  aria-expanded="false"
+                  aria-controls="collapseRe2"
+                >
+                  ❓ Quais são as formas de pagamento aceitas?
+                </button>
+              </h2>
+              <div
+                id="collapseRe2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionReservas"
+              >
+                <div class="accordion-body">
+                  💬 Aceitamos:
+
+                  <ul class="list-unstyled">
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      💳 Cartão de crédito (parcelamento disponível)
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      🏦 Boleto bancário
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      💰 PIX (desconto especial para pagamento à vista)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseRe3"
+                  aria-expanded="false"
+                  aria-controls="collapseRe3"
+                >
+                  ❓ Como funciona o cancelamento e reembolso?
+                </button>
+              </h2>
+              <div
+                id="collapseRe3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionReservas"
+              >
+                <div class="accordion-body">
+                  💬 Se precisar cancelar, os prazos e reembolsos variam
+                  conforme a antecedência:
+                  <ul class="list-unstyled">
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      🔹 Até 30 dias antes da viagem: Reembolso integral.
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      🔹 Entre 15 e 29 dias antes: Reembolso de 50%.
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      🔹 Menos de 15 dias: Sem reembolso.
+                    </li>
+                  </ul>
+                  (Podemos oferecer crédito para uso futuro).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-5">Sobre as Viagens e Destinos</h2>
+        <div class="container">
+          <div class="accordion" id="accordionViagens">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseVi1"
+                  aria-expanded="false"
+                  aria-controls="collapseVi1"
+                >
+                  ❓ Os pacotes são adequados para qualquer nível de
+                  experiência?
+                </button>
+              </h2>
+              <div
+                id="collapseVi1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionViagens"
+              >
+                <div class="accordion-body">
+                  💬 Sim! Temos viagens leves para iniciantes e expedições
+                  desafiadoras para aventureiros experientes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseVi2"
+                  aria-expanded="false"
+                  aria-controls="collapseVi2"
+                >
+                  ❓ Crianças podem participar das viagens?
+                </button>
+              </h2>
+              <div
+                id="collapseVi2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionViagens"
+              >
+                <div class="accordion-body">
+                  💬 Algumas viagens são adequadas para crianças acima de 7
+                  anos. Consulte os detalhes do pacote antes da reserva.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  ❓ Preciso de equipamentos especiais?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionViagens"
+              >
+                <div class="accordion-body">
+                  💬 Na maioria dos casos, não. Informaremos antecipadamente
+                  caso algum equipamento seja necessário.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseVi3"
+                  aria-expanded="false"
+                  aria-controls="collapseVi3"
+                >
+                  ❓ Os roteiros são seguros?
+                </button>
+              </h2>
+              <div
+                id="collapseVi3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionViagens"
+              >
+                <div class="accordion-body">
+                  💬 Sim! Todos os roteiros passam por análise de risco, e
+                  nossos guias são treinados para emergências.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-5">Outras Dúvidas</h2>
+        <div class="container">
+          <div class="accordion" id="accordionOutras">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOu1"
+                  aria-expanded="false"
+                  aria-controls="collapseOu1"
+                >
+                  ❓ Preciso de passaporte ou visto?
+                </button>
+              </h2>
+              <div
+                id="collapseOu1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionOutras"
+              >
+                <div class="accordion-body">
+                  💬 Para viagens internacionais, sim! Nossa equipe pode
+                  orientar sobre documentação necessária.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOu2"
+                  aria-expanded="false"
+                  aria-controls="collapseOu2"
+                >
+                  ❓ Vocês oferecem suporte 24h durante a viagem?
+                </button>
+              </h2>
+              <div
+                id="collapseOu2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionOutras"
+              >
+                <div class="accordion-body">
+                  💬 Sim! Você terá acesso a um canal direto de atendimento
+                  emergencial durante toda a experiência.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOu3"
+                  aria-expanded="false"
+                  aria-controls="collapseOu3"
+                >
+                  ❓ Como entrar em contato com a Explore o Mundo?
+                </button>
+              </h2>
+              <div
+                id="collapseOu3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionOutras"
+              >
+                <div class="accordion-body">
+                  💬 Você pode falar conosco pelo WhatsApp, e-mail ou telefone.
+                  <ul class="list-unstyled">
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      📞 Telefone: (00) 1234-5678
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      ✉️ E-mail: contato@exploreomundo.com
+                    </li>
+                    <li class="list-item-unstyled ms-4 mt-2">
+                      📍 Endereço: Rua das Aventuras, 123 – São Paulo, SP
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fim Section Dúvidas -->
+
+    <!-- Footer -->
+
+    <footer class="mt-5 p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Explore the world</h5>
+            <p>Todos os direitos reservados &copy; 2025</p>
+          </div>
+          <div class="col-md-6 text-md-end mt-3 mt-md-0">
+            <a href="" class="text-light text-decoration-none me-4">
+              <i class="bi me-2 bi-facebook"></i>Facebook
+            </a>
+            <a href="" class="text-light text-decoration-none me-4">
+              <i class="bi me-2 bi-instagram"></i>Instagram
+            </a>
+            <a href="" class="text-light text-decoration-none me-4">
+              <i class="bi me-2 bi-linkedin"></i>LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fim Footer -->
+  </body>
 </html>
