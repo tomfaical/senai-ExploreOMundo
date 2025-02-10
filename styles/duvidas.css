@@ -13,3 +13,7 @@ header {
 .header-overlay {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.section-duvidas {
+  height: 80vh;
+}
