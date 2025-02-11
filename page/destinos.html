@@ -11,19 +11,11 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
     defer></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="../styles/destinos.css"/>
-
-  <!-- CSSMap STYLESHEET - CONTINENTS -->
-  <link rel="stylesheet" type="text/css"
-    href="../mapa-explore/cssmap-continents-5.6.0/cssmap-continents/cssmap-continents/cssmap-continents.css"
-    media="screen">
-
-
+  <link rel="stylesheet" href="../styles/destinos.css" />
 </head>
 
 <body>
   <!-- Header -->
-
 
   <header>
     <div class="container-fluid borda-header">
@@ -63,833 +55,814 @@
     </div>
   </header>
 
-
   <!-- Fim Header -->
 
-  <!-- Section Explore - Mapa -->
+  <!-- Sticky paises -->
+
+  <div class="sticky-top bg-light p-2">
+    <div class="container">
+      <nav id="navbar-paises">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="#america">América</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#europa">Europa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#africa">África</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#asia">Ásia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oceania">Oceania</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Fim Sticky paises -->
+
+  <!-- Section carousel de cards -->
 
   <section>
-    <div class="container-fluid p-5 explore-bg">
-
-      <!-- CSSMap - Continents -->
-      <div id="map-continents">
-        <ul class="continents">
-          <li class="c1"><a href="#africa">África</a></li>
-          <li class="c2"><a href="#asia">Ásia</a></li>
-          <li class="c3"><a href="#australia">Oceania</a></li>
-          <li class="c4"><a href="#europe">Europa</a></li>
-          <li class="c5"><a href="#north-america">América do Norte</a></li>
-          <li class="c6"><a href="#south-america">América do Sul</a></li>
-        </ul>
+    <div class="container">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-paises" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+        <div class="my-5">
+          <h4 id="america">América</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 1 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Chapada-dos-Ventos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Brasil - Chapada dos Ventos</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 1 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 2 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Torres-del-Paine.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Chile - Torres del Paine</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 2 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 3 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Bariloche.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Argentina - Bariloche</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 3 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 4 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Yellowstone.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">EUA - Yellowstone</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.800,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 4 -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 5 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Grand-Canyon.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">EUA - Grand Canyon</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 5 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 6 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Riviera-Maia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">México - Riviera Maia</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Cultura & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                    </button>
+                    <!-- Fim do Card 6 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 7 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Patagonia.webp" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Argentina/Chile - Patagônia</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.300,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Exploração <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 7 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 8 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/America/Lencois-Maranhenses.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Brasil - Lençóis Maranhenses</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 3.700,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Paisagens & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 8 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h4 id="europa">Europa</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 1 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Alpes-suicos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Suíça - Alpes Suíços</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 1 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 2 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Lagos-Plitvice.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Croácia - Lagos Plitvice</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.600,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 2 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 3 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Fiordes-Noruegueses.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Noruega - Fiordes Noruegueses</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.100,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Paisagens & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 3 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 4 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Ilhas-Feroe.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Dinamarca - Ilhas Feroe</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Cultura & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 4 -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 5 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Regiao-da-Toscana.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Itália - Região de Toscana</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Cultura & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 5 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 6 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Islandia.webp" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Islândia - Islândia Selvagem</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 9.000,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 12 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 6 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 7 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Pico dos Pirineus.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Espanha/França - Montanhas dos Pirineus</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.400,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 7 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 8 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Europa/Floresta-negra.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Alemanha - Floresta Negra</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.800,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 8 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h4 id="africa">África</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 1 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Serengeti.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Tanzânia - Serengeti</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 9.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Vida Selvagem & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 1 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 2 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Deserto-do-Saara.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Marrocos - Deserto do Saara</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.800,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Cultura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 2 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 3 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Delta-do-Okavango.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Botsuana - Delta do Okavango</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 11.000,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Vida Selvagem <br>
+                          <i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 3 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 4 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Montanha-da-Mesa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">África do Sul - Montanha da Mesa</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.400,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 5 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 4 -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 5 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Ilhas-Seychelles.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Oceano Índico - Ilhas Seychelles</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Relaxamento & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 5 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 6 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Kilimanjaro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Tanzânia - Kilimanjaro</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 14.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 12 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Trekking <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 6 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 7 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Victoria-Falls.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Zâmbia/Zimbábue - Victoria Falls</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 7 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 8 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Africa/Madagascar.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Madagascar - Madagascar Selvagem</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 8 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h4 id="asia">Ásia</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 1 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Monte-Fuji.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Japão - Monte Fuji</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Cultura <br>
+                          <i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 1 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 2 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Lago-Baikal.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Rússia - Lago Baikal</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.800,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 2 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 3 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Templo-de-Angkor-Wat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Camboja - Templo de Angkor Wat</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 4.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> História & Cultura <br>
+                          <i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 3 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 4 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Vale-do-Spiti.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Índia - Vale do Spiti</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 12 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Trekking <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 4 -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 5 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Monte-Everest-Nepal.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Nepal - Monte Everest (Base Camp)</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 15.000,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 16 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Trekking <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 5 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 6 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Halong-Bay.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Vietnã - Halong Bay</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 5 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Paisagens & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 6 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 7 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Deserto-de-Gobi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Mongólia - Deserto de Gobi</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.400,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Cultura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 7 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 8 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Asia/Bali.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Indonésia - Bali</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.000,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Cultura & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 8 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h4 id="oceania">Oceania</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 1 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Grande-Barreira-de-Corais.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Austrália - Grande Barreira de Corais</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 9.800,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Mergulho & Ecoturismo <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 1 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 2 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Monte-Cook.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Nova Zelândia - Monte Cook</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.600,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 2 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 3 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Lago-Tekapo.avif" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Nova Zelândia - Lago Tepako</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 5.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 5 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Paisagens & Relaxamento <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 3 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 4 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Kimberley.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Austrália - Kimberley</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.200,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Expedição & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 4 -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <!-- Card 5 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Ilhas-fiji.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Pacífico Sul - Ilhas Fiji</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 10.300,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Relaxamento & Paisagens <br>
+                          <i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 5 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 6 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Ilhas-de-Lord-Howe.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Austrália - Ilha de Lord Howe</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 6.900,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Trekking <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 6 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 7 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Parque-Nacional-Kakadu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Austrália - Parque Nacional Kakadu</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 7.500,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Cultura & Aventura <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 7 -->
+                  </div>
+                  <div class="col">
+                    <!-- Card 8 -->
+                    <button class="btn">
+                      <div class="card">
+                        <img src="../img/Oceania/Tasmania.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-start">
+                          <h5 class="card-title">Austrália - Tasmânia Selvagem</h5>
+                          <i class="bi bi-cash-coin text-success"></i> R$ 8.400,00 <br>
+                          <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
+                          <i class="bi bi-puzzle text-secondary"></i> Trekking & Vida Selvagem <br>
+                          <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i
+                            class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade
+                          <br>
+                        </div>
+                      </div>
+                    </button>
+                    <!-- Fim do Card 8 -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- END OF THE CSSMap - Continents -->
+
     </div>
   </section>
 
-  <!-- Fim Section Explore - Mapa -->
+  <!-- Fim Section carousel de cards -->
 
-  <!-- Section Explore -->
 
-  <section class="mt-5">
-    <!-- Modal Ásia -->
-    <div class="container">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ModalAsia">Ásia</button>
-      <!-- Modal -->
-      <div class="modal fade" id="ModalAsia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ásia</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 1 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Japão - Monte Fuji</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 1 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 2 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Rússia - Lago Baikal</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 2 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 3 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Camboja - Templo de Angkor Wat</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 3 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 4 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Índia - Vale do Spiti</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 4 -->
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 5 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Nepal - Monte Everest (Base Camp)</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 5 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 6 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Vietnã - Halong Bay</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 6 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 7 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Mongólia - Deserto de Gobi</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 7 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 8 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Indonésia - Bali</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 8 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fim do Modal Ásia -->
-
-    <!-- Modal África -->
-    <div class="container">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ModalAfrica">
-        África
-      </button>
-      <!-- Modal -->
-      <div class="modal fade" id="ModalAfrica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">África</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 1 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Tanzânia - Serengeti</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 1 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 2 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Marrocos - Deserto do Saara</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 2 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 3 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Botsuana - Delta do Okavango</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 3 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 4 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">África do Sul - Montanha da Mesa</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 4 -->
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 5 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Oceano Índico - Ilhas Seychelles</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 5 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 6 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Tanzânia - Kilimanjaro</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 6 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 7 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Zâmbia/Zimbábue - Victoria Falls</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 7 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 8 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Madagascar - Madagascar Selvagem</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 8 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fim do Modal África -->
-
-    <!-- Modal América -->  
-    <div class="container">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ModalAmerica">
-        América
-      </button>
-      <!-- Modal -->
-      <div class="modal fade" id="ModalAmerica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">América</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 1 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Brasil - Chapada dos Ventos</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 1 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 2 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Chile - Torres del Paine</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 5.900,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 2 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 3 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Argentina - Bariloche</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 4.500,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 3 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 4 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">EUA - Yellowstone</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 5.800,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 4 -->
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 5 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">EUA - Grand Canyon</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 4.900,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 5 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 6 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">México - Riviera Maia</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 4.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Cultura & Relaxamento <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 6 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 7 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Argentina/Chile - Patagônia</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 6.300,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Trekking & Exploração <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 7 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 8 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Brasil - Lençóis Maranhenses</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.700,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Paisagens & Relaxamento <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 8 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fim do Modal América -->
-
-    <!-- Modal Europa -->
-    <div class="container">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ModalEuropa">
-        Europa
-      </button>
-      <!-- Modal -->
-      <div class="modal fade" id="ModalEuropa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Europa</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 1 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Suíça - Alpes Suíços</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 7.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 1 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 2 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Croácia - Lagos Plitvice</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 4.600,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 6 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 2 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 3 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Noruega - Fiordes Noruegueses</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 8.100,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 10 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Paisagens & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 3 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 4 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Dinamarca - Ilhas Feroe</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 6.900,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 8 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Cultura & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 4 -->
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 5 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Itália - Região de Toscana</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 5.500,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Cultura & Relaxamento <br>
-                              <i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 5 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 6 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Islândia - Islândia Selvagem</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 9.000,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 12 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Trekking & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 6 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 7 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Espanha/França - Montanhas dos Pirineus</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 6.400,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 9 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Trekking & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 7 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 8 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Alemanha - Floresta Negra</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 4.800,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Paisagens <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 8 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fim do Modal Europa -->
-
-    <!-- Modal Oceania -->
-    <div class="container">
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ModalOceania">
-        Oceania
-      </button>
-      <!-- Modal -->
-      <div class="modal fade" id="ModalOceania" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Oceania</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 1 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 1 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 2 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 2 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 3 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 3 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 4 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 4 -->
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col">
-                        <!-- Card 5 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 5 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 6 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 6 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 7 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 7 -->
-                      </div>
-                      <div class="col">
-                        <!-- Card 8 -->
-                        <button class="btn">
-                          <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body text-start">
-                              <h5 class="card-title">Card title</h5>
-                              <i class="bi bi-cash-coin text-success"></i> R$ 3.200,00 <br>
-                              <i class="bi bi-hourglass-split text-primary"></i> 7 dias <br>
-                              <i class="bi bi-puzzle text-secondary"></i> Ecoturismo & Aventura <br>
-                              <i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i> Dificuldade <br>
-                            </div>
-                          </div>
-                        </button>
-                        <!-- Fim do Card 8 -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fim do Modal Oceania -->
-  </section>
-
-  <!-- Fim Section Explore -->
 
   <!-- Footer -->
 
@@ -916,28 +889,6 @@
   </footer>
 
   <!-- Fim Footer -->
-
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <!-- CSSMap SCRIPT -->
-  <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function () {
-
-      // CSSMap;
-      $("#map-continents").CSSMap({
-        "size": 1450,
-        "mapStyle": "vintage",
-        "tooltips": "visible",
-        "responsive": "auto"
-      });
-      // END OF THE CSSMap;
-
-    });
-  </script>
 </body>
 
 </html>
