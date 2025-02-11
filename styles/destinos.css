@@ -17,3 +17,7 @@ header {
 .explore-bg {
   height: 100vh;
 }
+
+.active-paises {
+  background-color: #f0941f !important;
+}
