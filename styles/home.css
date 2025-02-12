@@ -10,4 +10,8 @@ header {
   .header-overlay {
     background-color: rgba(0, 0, 0, 0.6);
   }
+
+  h2 {
+    color: #f0941f;
+  }
   
