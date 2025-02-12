@@ -17,7 +17,7 @@
 <body>
   <!-- Header -->
 
-    <header>
+    <header class="">
       <div class="container-fluid borda-header">
         <nav class="navbar navbar-expand-lg background-nav">
           <div class="container-fluid">
@@ -36,35 +36,50 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="../home.html">Home</a>
+                  <a class="nav-link text-light fw-bold" href="../home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./destinos.html">Destinos</a>
+                  <a class="nav-link text-light fw-bold" href="./destinos.html">Destinos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./sobrenos.html">Sobre Nós</a>
+                  <a class="nav-link text-light fw-bold" href="./sobrenos.html">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./duvidas.html">Dúvidas</a>
+                  <a class="nav-link text-light fw-bold" href="./duvidas.html">Dúvidas</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-      <div class="container-fluid">
-        <div
-          class="container-fluid text-center text-light header-overlay p-5 my-5"
-        >
-          <h1>Nossos Pacotes</h1>
-          <p>lorem ipsum</p>
-        </div>
-        <br />
+      <div class="gradiente">
+        <h1 class="text-center text-light">Argentina</h1>
       </div>
     </header>
 
   <!-- Fim Header -->
 
+  <img src="../img/America/Bandeira-Argentina.jpg" alt="" style="width: 270px">
+
+<div class="container">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Visão geral</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+  </div>
+</div>
+  
   <!-- Footer -->
 
   <footer class="mt-5 p-5 bg-dark text-light">
