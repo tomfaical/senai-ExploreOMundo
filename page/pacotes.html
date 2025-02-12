@@ -1,103 +1,382 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Explore o Mundo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-      defer
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="../styles/pacotes.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore o Mundo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+    defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="../styles/pacotes.css" />
+</head>
 
-    <header>
-      <div class="container-fluid borda-header">
-        <nav class="navbar navbar-expand-lg background-nav">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Explore the World</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="../home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./destinos.html">Destinos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./sobrenos.html">Sobre Nós</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./duvidas.html">Dúvidas</a>
-                </li>
+<body>
+  <!-- Header -->
+
+  <header class="">
+    <div class="container-fluid borda-header">
+      <nav class="navbar navbar-expand-lg background-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Explore the World</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="./destinos.html">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="./sobrenos.html">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="./duvidas.html">Dúvidas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <img class="argentina" src="../img/America/Bandeira-Argentina.jpg" alt="" style="width: 270px;">
+    <h1 class="text-center text-light">Argentina</h1>
+  </header>
+
+  <!-- Fim Header -->
+
+  <!-- Section Icon & Nav -->
+
+  <section>
+    <div class="container justify-content-around">
+      <div class="row">
+        <div class="col-8 offset-4">
+          <div class="d-block">
+            <nav>
+              <div class="nav nav-underline nav-justified" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-vgeral-tab" data-bs-toggle="tab" data-bs-target="#nav-vgeral"
+                  type="button" role="tab" aria-controls="nav-vgeral" aria-selected="true">Visão Geral</button>
+                <button class="nav-link" id="nav-atracoes-tab" data-bs-toggle="tab" data-bs-target="#nav-atracoes"
+                  type="button" role="tab" aria-controls="nav-atracoes" aria-selected="false">Atrações</button>
+                <button class="nav-link" id="nav-dicas-tab" data-bs-toggle="tab" data-bs-target="#nav-dicas"
+                  type="button" role="tab" aria-controls="nav-dicas" aria-selected="false">Dicas</button>
+                <button class="nav-link" id="nav-opinioes-tab" data-bs-toggle="tab" data-bs-target="#nav-opinioes"
+                  type="button" role="tab" aria-controls="nav-opinioes" aria-selected="false">Opiniões</button>
+                <button class="nav-link" id="nav-FAQ-tab" data-bs-toggle="tab" data-bs-target="#nav-FAQ" type="button"
+                  role="tab" aria-controls="nav-FAQ" aria-selected="false">FAQ</button>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fim Section Icon & Nav -->
+
+  <!-- Section Tab Content -->
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-3 offset-1">
+          <div class="mb-3">
+            <h2 class="lead fw-bold">Destino:</h2>
+            <h2 class="display-4">Bariloche</h2>
+          </div>
+          <p class="text-muted lead my-4">
+            <i class="bi bi-signpost" style="color: orange;"></i> Aventure-se em esportes de inverno ou trilhas exuberantes nos Alpes Argentinos.
+          </p>
+        <div class="mb-5">
+            <p><i class="bi bi-cash-coin text-success"></i> R$ 4.500,00</p>
+            <p><i class="bi bi-hourglass-split text-primary"></i> 7 dias</p>
+            <p><i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens</p>
+            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                class="bi bi-star-fill text-warning"></i><i class="bi bi-star text-warning"></i><i
+                class="bi bi-star text-warning"></i> Dificuldade</p>
+          </div>
+          <button class="btn btn-outline-warning w-100">Explorar Pacotes</button>
+        </div>
+        <div class="col-8 px-5 mt-5">
+          <div class="tab-content " id="nav-tabContent">
+            <!-- Tab Visão Geral -->
+            <div class="tab-pane fade show active" id="nav-vgeral" role="tabpanel" aria-labelledby="nav-vgeral-tab"
+              tabindex="0">
+              <p>Visão geral</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga et beatae quas possimus amet molestiae
+                neque repellat alias eaque obcaecati sit, quae ipsum assumenda natus sapiente eum! Beatae, facere
+                consectetur.
+                Cum ullam praesentium veniam doloribus debitis provident suscipit impedit sit, asperiores distinctio,
+                repellat atque nisi dolore. Provident explicabo itaque corporis nesciunt eligendi earum dolorum,
+                voluptate, harum voluptates quidem quam minus!</p>
+            </div>
+            <!-- Tab Atrações -->
+            <div class="tab-pane fade" id="nav-atracoes" role="tabpanel" aria-labelledby="nav-atracoes-tab"
+              tabindex="0">
+              <div id="carouselAtracoes" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselAtracoes" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=1" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=2" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=3" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=4" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=5" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col">
+                        <img src="https://picsum.photos/400/300?random=6" class="d-flex" alt="...">
+                      </div>
+                      <div class="col p-5 me-3">
+                        <h2>Lugar #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique repudiandae?
+                          Molestias voluptatem vel cupiditate beatae labore quaerat vitae ex voluptatum suscipit, quod
+                          aliquam, aspernatur dolore distinctio excepturi, aut facilis!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAtracoes"
+                  data-bs-slide="prev">
+                  <i class="bi bi-caret-left-fill" style="font-size: 2em; color: white;"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAtracoes"
+                  data-bs-slide="next">
+                  <i class="bi bi-caret-right-fill" style="font-size: 2em; color: orange;"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- Tab Dicas -->
+            <div class="tab-pane fade" id="nav-dicas" role="tabpanel" aria-labelledby="nav-dicas-tab" tabindex="0">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                </a>
+              </div>
+            </div>
+            <!-- Tab Opiniões -->
+            <div class="tab-pane fade" id="nav-opinioes" role="tabpanel" aria-labelledby="nav-opinioes-tab" tabindex="0">
+              <p>Opiniões</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga et beatae quas possimus amet molestiae
+                neque repellat alias eaque obcaecati sit, quae ipsum assumenda natus sapiente eum! Beatae, facere
+                consectetur.
+                Cum ullam praesentium veniam doloribus debitis provident suscipit impedit sit, asperiores distinctio,
+                repellat atque nisi dolore. Provident explicabo itaque corporis nesciunt eligendi earum dolorum,
+                voluptate, harum voluptates quidem quam minus!</p>
+            </div>
+            <!-- Tab FAQ -->
+            <div class="tab-pane fade" id="nav-FAQ" role="tabpanel" aria-labelledby="nav-FAQ-tab" tabindex="0">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
               </ul>
             </div>
           </div>
-        </nav>
-      </div>
-      <div class="container-fluid">
-        <div
-          class="container-fluid text-center text-light header-overlay p-5 my-5"
-        >
-          <h1>Nossos Pacotes</h1>
-          <p>lorem ipsum</p>
-        </div>
-        <br />
-      </div>
-    </header>
-
-    <!-- Fim Header -->
-
-    <!-- Footer -->
-
-    <footer class="mt-5 p-5 bg-dark text-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h5>Explore the world</h5>
-            <p>Todos os direitos reservados &copy; 2025</p>
-          </div>
-          <div class="col-md-6 text-md-end mt-3 mt-md-0">
-            <a href="" class="text-light text-decoration-none me-4">
-              <i class="bi me-2 bi-facebook"></i>Facebook
-            </a>
-            <a href="" class="text-light text-decoration-none me-4">
-              <i class="bi me-2 bi-instagram"></i>Instagram
-            </a>
-            <a href="" class="text-light text-decoration-none me-4">
-              <i class="bi me-2 bi-linkedin"></i>LinkedIn
-            </a>
-          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Fim Footer -->
-  </body>
+  <!-- Fim Section Tab Content -->
+
+  <!-- Section Pacotes -->
+
+  <section class="mt-5 bg-light">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-hospedagem-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-hospedagem" type="button" role="tab" aria-controls="pills-hospedagem"
+                aria-selected="true">Hospedagem</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-voo-tab" data-bs-toggle="pill" data-bs-target="#pills-voo"
+                type="button" role="tab" aria-controls="pills-voo" aria-selected="false">Voo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-adicionais-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-adicionais" type="button" role="tab" aria-controls="pills-adicionais"
+                aria-selected="false">Adicionais</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-hospedagem" role="tabpanel"
+              aria-labelledby="pills-hospedagem-tab">
+              <ul class="list-unstyled">
+                <li>
+                  <div class="card mb-3 w-100">
+                    <div class="row justify-content-start">
+                      <div class="col">
+                        <img src="https://picsum.photos/200/200?random=1" alt="...">
+                      </div>
+                      <div class="col">
+                        <div class="card-body">
+                          <h5 class="card-title">Hotel #1</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestias
+                            veniam. Aut, enim accusantium earum nesciunt adipisci veritatis! Consequuntur similique
+                            eligendi minus aut iste aliquam ipsum consectetur ea quasi voluptates?</p>
+                        </div>
+                      </div>
+                      <div class="col-2 bg-dark d-flex" style="justify-content: center; align-items: center;">
+                        <div class="form-check">
+                          <input class="mt-0 form-check-input" type="checkbox" value="" id="flexCheckDefault">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-voo" role="tabpanel" aria-labelledby="pills-voo-tab">
+
+            </div>
+            <div class="tab-pane fade" id="pills-adicionais" role="tabpanel" aria-labelledby="pills-adicionais-tab">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Fim Section Pacotes -->
+
+  <!-- Footer -->
+
+  <footer class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Explore the world</h5>
+          <p>Todos os direitos reservados &copy; 2025</p>
+        </div>
+        <div class="col-md-6 text-md-end mt-3 mt-md-0">
+          <a href="" class="text-light text-decoration-none me-4">
+            <i class="bi me-2 bi-facebook"></i>Facebook
+          </a>
+          <a href="" class="text-light text-decoration-none me-4">
+            <i class="bi me-2 bi-instagram"></i>Instagram
+          </a>
+          <a href="" class="text-light text-decoration-none me-4">
+            <i class="bi me-2 bi-linkedin"></i>LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fim Footer -->
+</body>
+
 </html>
