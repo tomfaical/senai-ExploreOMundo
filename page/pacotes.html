@@ -47,19 +47,20 @@
       </nav>
     </div>
     <div class="argentina">
-      <img src="../img/America/Bandeira-Argentina.jpg" alt="" style="width: 270px;">
+      <img src="../img/America/Bandeira-Argentina.jpg" alt="" style="width: 270px" />
       <h1 class="text-center text-light">Argentina</h1>
     </div>
   </header>
 
   <!-- Fim Header -->
 
-  <!-- Section Icon & Nav -->
+
+  <!-- Section Tab Content -->
 
   <section>
-    <div class="container justify-content-around">
-      <div class="row">
-        <div class="col-8 offset-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-xxl-8 offset-xxl-4 justify-content-around">
           <div class="d-block">
             <nav>
               <div class="nav nav-underline nav-justified" id="nav-tab" role="tablist">
@@ -81,17 +82,6 @@
             </nav>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Fim Section Icon & Nav -->
-
-  <!-- Section Tab Content -->
-
-  <section>
-    <div class="container">
-      <div class="row">
         <div class="col-3 offset-1">
           <div class="mb-3">
             <h2 class="lead fw-bold">Destino:</h2>
@@ -104,14 +94,18 @@
           <div class="mb-5">
             <p><i class="bi bi-cash-coin text-success"></i> R$ 4.500,00</p>
             <p><i class="bi bi-hourglass-split text-primary"></i> 7 dias</p>
-            <p><i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens</p>
-            <p><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+            <p>
+              <i class="bi bi-puzzle text-secondary"></i> Aventura & Paisagens
+            </p>
+            <p>
+              <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
                 class="bi bi-star-fill text-warning"></i><i class="bi bi-star text-warning"></i><i
-                class="bi bi-star text-warning"></i> Dificuldade</p>
+                class="bi bi-star text-warning"></i> Dificuldade
+            </p>
           </div>
         </div>
-        <div class="col-8 px-5 mt-5">
-          <div class="tab-content " id="nav-tabContent">
+        <div class="col-sm-12 col-xxl-8 px-5 mt-5">
+          <div class="tab-content" id="nav-tabContent">
             <!-- Tab Visão Geral -->
             <div class="tab-pane fade show active" id="nav-vgeral" role="tabpanel" aria-labelledby="nav-vgeral-tab"
               tabindex="0">
@@ -413,16 +407,22 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link  active" id="pills-hospedagem-tab" data-bs-toggle="pill"
                 data-bs-target="#pills-hospedagem" type="button" role="tab" aria-controls="pills-hospedagem"
-                aria-selected="true">Hospedagem</button>
+                aria-selected="true">
+                Hospedagem
+              </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-voo-tab" data-bs-toggle="pill" data-bs-target="#pills-voo"
-                type="button" role="tab" aria-controls="pills-voo" aria-selected="false">Voo</button>
+                type="button" role="tab" aria-controls="pills-voo" aria-selected="false">
+                Voo
+              </button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-adicionais-tab" data-bs-toggle="pill"
                 data-bs-target="#pills-adicionais" type="button" role="tab" aria-controls="pills-adicionais"
-                aria-selected="false">Adicionais</button>
+                aria-selected="false">
+                Adicionais
+              </button>
             </li>
           </ul>
           <div class="tab-content" id="pills-tabContent">
@@ -435,9 +435,9 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Hotel-EcoSki-by-bund.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Hotel-EcoSki-by-bund.webp" alt="..." style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Hotel EcoSki by bund</h5>
                           <p class="text-muted"> San Carlos de Bariloche, Quaglia</p>
@@ -456,10 +456,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de</small></p>
                         <h4>R$ 2.109,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk1" type="checkbox">
+                        <label class="check" for="chk1">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -471,9 +474,10 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Huinid-Bustillo-Hotel-&-Spa.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Huinid-Bustillo-Hotel-&-Spa.webp" alt="..."
+                          style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Huinid Bustillo Hotel & Spa</h5>
                           <p class="text-muted">San Carlos de Bariloche, Avenida Bustillo</p>
@@ -493,10 +497,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de </small></p>
                         <h4>R$ 6.448,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk2" type="checkbox">
+                        <label class="check" for="chk2">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -508,9 +515,10 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Cacique-Inacayal-Lake-Hotel-&-Spa.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Cacique-Inacayal-Lake-Hotel-&-Spa.webp" alt="..."
+                          style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Cacique Inacayal Lake Hotel & Spa</h5>
                           <p class="text-muted"> San Carlos de Bariloche, Juan Manuel de Rosas. </p>
@@ -529,10 +537,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de </small></p>
                         <h4>R$ 3.813,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk3" type="checkbox">
+                        <label class="check" for="chk3">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -544,9 +555,10 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Design-Suites-Bariloche.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Design-Suites-Bariloche.webp" alt="..."
+                          style="max-block-size: 11.5rem" />
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Design Suites Bariloche</h5>
                           <p class="text-muted"> San Carlos de Bariloche, Av. Bustillo</p>
@@ -559,17 +571,22 @@
                               <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
                               <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
                             </p>
-                            <div class="vr" style="max-height: 15px; margin: 6px 10px;"></div>
-                            <i class="bi bi-wifi" style="color: gray; margin: 0px 5px;"></i>
-                            <i class="bi bi-cup-hot" style="color: gray; margin: 0px 5px;"></i>
-                            <i class="bi bi-p-square" style="color: gray; margin: 0px 5px;"></i>
+                            <div class="vr" style="max-height: 15px; margin: 6px 10px"></div>
+                            <i class="bi bi-wifi" style="color: gray; margin: 0px 5px"></i>
+                            <i class="bi bi-cup-hot" style="color: gray; margin: 0px 5px"></i>
+                            <i class="bi bi-p-square" style="color: gray; margin: 0px 5px"></i>
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3">
+                          <small>5 noites, 2 pessoas a partir de </small>
+                        </p>
                         <h4>R$ 5.235,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk4" type="checkbox">
+                        <label class="check" for="chk4">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -581,9 +598,9 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Heaven-Caterdral.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Heaven-Caterdral.webp" alt="..." style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Heaven Catedral</h5>
                           <p class="text-muted"> San Carlos de Bariloche, Punta Nevada</p>
@@ -602,10 +619,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de </small></p>
                         <h4>R$ 2.422,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk5" type="checkbox">
+                        <label class="check" for="chk5">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -617,9 +637,9 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Hosteria-Nuevo-Pinar.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Hosteria-Nuevo-Pinar.webp" alt="..." style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Hosteria Nuevo Pinar</h5>
                           <p class="text-muted">San Carlos de Bariloche, Av. Bustillo</p>
@@ -637,10 +657,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de </small></p>
                         <h4>R$ 1.499,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk6" type="checkbox">
+                        <label class="check" for="chk6">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
 
                     </div>
@@ -652,9 +675,9 @@
                   <div class="card mb-3 w-100">
                     <div class="row d-flex">
                       <div class="col-2">
-                        <img src="../img/Hoteis/Hotel-Eco-Max.webp" alt="..." style="max-block-size: 10rem;">
+                        <img src="../img/Hoteis/Hotel-Eco-Max.webp" alt="..." style="max-block-size: 12.5rem;">
                       </div>
-                      <div class="col">
+                      <div class="col offset-1">
                         <div class="card-body p-4">
                           <h5 class="card-title">Hotel Eco Max</h5>
                           <p class="text-muted">San Carlos de Bariloche, España</p>
@@ -673,70 +696,142 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
+                      <div class="col-3 border-hoteis">
+                        <p class="text-muted mt-3"><small>5 noites, 2 pessoas a partir de </small></p>
                         <h4>R$ 2.646,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
+                        <input class="hidden" id="chk7" type="checkbox">
+                        <label class="check" for="chk7">
+                          <span class="text">Reservar</span>
+                        </label>
                       </div>
-
                     </div>
                   </div>
-                </li>
+            </div>
+            </li>
 
-                <!-- Hotel 8 -->
-                <li>
-                  <div class="card mb-3 w-100">
-                    <div class="row d-flex">
-                      <div class="col-2">
-                        <img src="../img/Hoteis/Sheraton-Bariloche-Hotel.webp" alt="..." style="max-block-size: 10rem;">
+            <!-- Hotel 8 -->
+            <li>
+              <div class="card mb-3 w-100">
+                <div class="row d-flex">
+                  <div class="col-2">
+                    <img src="../img/Hoteis/Sheraton-Bariloche-Hotel.webp" alt="..." style="max-block-size: 12.5rem;">
+                  </div>
+                  <div class="col offset-1">
+                    <div class="card-body p-4">
+                      <h5 class="card-title">Sheraton Bariloche Hotel</h5>
+                      <p class="text-muted">San Carlos de Bariloche, Av. San Martín</p>
+                      <div class="texto-hoteis">
+                        <p><span
+                            class="badge me-3 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">8.0</span><i
+                            class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
+                          <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
+                          <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
+                          <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
+                        </p>
+                        <div class="vr" style="max-height: 15px; margin: 6px 10px;"></div>
+                        <i class="bi bi-wifi" style="color: gray; margin: 0px 5px;"></i>
+                        <i class="bi bi-cup-hot" style="color: gray; margin: 0px 5px;"></i>
+                        <i class="bi bi-p-square" style="color: gray; margin: 0px 5px;"></i>
                       </div>
-                      <div class="col">
-                        <div class="card-body p-4">
-                          <h5 class="card-title">Sheraton Bariloche Hotel</h5>
-                          <p class="text-muted">San Carlos de Bariloche, Av. San Martín</p>
-                          <div class="texto-hoteis">
-                            <p><span
-                                class="badge me-3 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2">8.0</span><i
-                                class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
-                              <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
-                              <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
-                              <i class="bi bi-star-fill" style="color: darkgoldenrod;"></i>
-                            </p>
-                            <div class="vr" style="max-height: 15px; margin: 6px 10px;"></div>
-                            <i class="bi bi-wifi" style="color: gray; margin: 0px 5px;"></i>
-                            <i class="bi bi-cup-hot" style="color: gray; margin: 0px 5px;"></i>
-                            <i class="bi bi-p-square" style="color: gray; margin: 0px 5px;"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <p class="text-muted mt-3">5 noites</p>
-                        <h4>R$ 5.161,00</h4>
-                        <button class="btn btn-reservar">Reservar</button>
-                      </div>
-
                     </div>
                   </div>
-                </li>
+                  <div class="col-3 border-hoteis">
+                    <p class="text-muted mt-3"> <small>5 noites, 2 pessoas a partir de </small>
+                    </p>
+                    <h4>R$ 5.161,00</h4>
+                    <input class="hidden" id="chk8" type="checkbox">
+                    <label class="check" for="chk8">
+                      <span class="text">Reservar</span>
+                    </label>
+                  </div>
 
-              </ul>
-            </div>
-            <div class="tab-pane fade" id="pills-voo" role="tabpanel" aria-labelledby="pills-voo-tab">
+                </div>
+              </div>
+            </li>
 
-            </div>
-            <div class="tab-pane fade" id="pills-adicionais" role="tabpanel" aria-labelledby="pills-adicionais-tab">
-
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="pills-voo" role="tabpanel" aria-labelledby="pills-voo-tab">
+            <div class="card mb-3 w-100">
+              <div class="row d-flex p-3 justify-content-around align-items-center">
+                <div class="col">
+                  <p>Gol</p>
+                </div>
+                <div class="col">
+                  <p class="text-muted"><i class="bi bi-airplane">&nbsp;&nbsp;</i><strong>VOLTA</strong> VCP-GIG</p>
+                  <p><strong>sex.. 25 abr. 2025</strong></p>
+                  <p><small>20:05 - <span class="text-success">Direto</span></small></p>
+                </div>
+                <div class="col">
+                  <p class="text-muted"><i class="bi bi-airplane">&nbsp;&nbsp;</i><strong>IDA</strong> VCP-GIG</p>
+                  <p><strong>qua.. 23 abr. 2025</strong></p>
+                  <p><small>21:40 - <span class="text-success">Direto</span></small></p>
+                </div>
+                <div class="col">
+                  <p><strong>2 dias</strong></p>
+                </div>
+                <div class="col">
+                  <p><small>A partir de</small></p>
+                  <p class="h3"><span class="">R$</span> 364</p>
+                  <button class="btn btn-reservar">Reservar</button>
+                </div>
+              </div>
             </div>
           </div>
-
+          <div class="tab-pane fade" id="pills-adicionais" role="tabpanel" aria-labelledby="pills-adicionais-tab">
+            <div class="container">
+              <table class="table">
+                <thead class="table-warning">
+                  <tr>
+                    <th scope="col">Serviço</th>
+                    <th scope="col">Recursos</th>
+                    <th scope="col">Preço</th>
+                    <th scope="col">Contratar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Opção 1</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>R$ 100,00</td>
+                    <td>
+                      <div class="form-check">
+                        <input class="mt-0 form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Opção 2</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>R$ 250,00</td>
+                    <td>
+                      <div class="form-check">
+                        <input class="mt-0 form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Opção 3</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>R$ 500,00</td>
+                    <td class="justify-content-center">
+                      <div class="form-check">
+                        <input class="mt-0 form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
-
-
+    </div>
     </div>
   </section>
 
   <!-- Fim Section Pacotes -->
+
 
   <!-- Footer -->
 
