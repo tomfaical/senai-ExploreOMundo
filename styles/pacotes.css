@@ -15,6 +15,16 @@ header {
   color: #f0941f;
 } 
 
+
+.nav-pills .nav-link {
+  color: orange !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: orange !important;
+  color: white !important;
+}
+
 .cursor-hover{
   transition: 0.5s;
 }
