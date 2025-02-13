@@ -7,11 +7,11 @@ header {
   font-size: 32px;
 }
 
-.nav-link {
+.nav-link-paises {
   color: #f0941f !important; 
 }
 
-.nav-link.active {
+.nav-link-paises.active {
   color: white !important; 
   background-color: #f0941f !important; 
 }
