@@ -1,17 +1,27 @@
-header {
-  
-  }
-  .borda-header {
-    border-bottom: 4px solid #f0941f;
-  }
-  .background-nav {
-    background-color: none;
-  }
-  .header-overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
+.borda-header {
+  border-bottom: 4px solid #f0941f;
+  position: relative;
+  z-index: 10;
+}
 
-  h2 {
-    color: #f0941f;
-  }
-  
+.hero{
+    /* background: url("https://picsum.photos/1600/800?grayscale") center/cover no-repeat; */
+    min-height: 80vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;   
+}
+
+img{
+  /* align-items: ;  */
+  width: 100px;
+}
+
+.nav-link{
+  color: white;
+}
+
+/* {
+  color: #f0941f;
+} */
