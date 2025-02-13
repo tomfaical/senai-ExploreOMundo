@@ -36,12 +36,26 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.argentina {
+.argentina img {
   border: 3px solid #f0941f;
   border-radius: 1.5rem;
   position: relative;
   top: -70px;
   right: -50px;
+}
+
+.argentina h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+  top: 3vh;
+}
+
+.argentina h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+  top: 3vh;
 }
 
 /* 
@@ -53,9 +67,35 @@ header {
   top: 41vh;
 } */
 
-h1 {
-  position: relative;
-  font-size: 50px;
-  font-weight: bold;
-  top: 50vh;
+.texto-hoteis {
+  display: inline-flex;
 }
+
+.btn-reservar {
+  background: none;
+  border: 2px solid orange;
+  border-radius: 1rem;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  color: orange;
+}
+
+.btn-reservar:hover {
+  background: peachpuff;
+  border: 2px solid orange;
+  border-radius: 1rem;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  color: brown ;
+}
+
+.btn-reservar: {
+  background: peachpuff;
+  border: 2px solid orange;
+  border-radius: 1rem;
+  padding: .5rem 1.5rem;
+  font-weight: 500;
+  color: brown ;
+}
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate2
