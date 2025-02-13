@@ -6,6 +6,15 @@ header {
   border-bottom: 4px solid #f0941f;
 }
 
+.nav-link-duvidas {
+  color: #f0941f !important; 
+}
+
+.nav-link-duvidas.active {
+  color: white !important; 
+  background-color: #f0941f !important; 
+}
+
 .background-nav {
   background-color: none;
 }
