@@ -174,8 +174,6 @@ input:checked+label::before {
 
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate2 */
 
-
-
 .border-hoteis {
   border-left: 1px solid lightgray;
   padding: 1.5rem 1.5rem 1.5rem 1rem
@@ -196,3 +194,7 @@ input:checked+label::before {
   border: 1px solid darkorange;
 }
 
+.border-voo {
+  border-left: 1px solid lightgray;
+  padding: 1.5rem 0 1.5rem 1.5rem
+}
