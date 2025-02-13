@@ -115,7 +115,7 @@ header {
   display: none;
 }
 
-label {
+.btn-toggle label {
   display: block;
   border: 1px solid transparent;
   display: flex;
@@ -127,7 +127,7 @@ label {
   margin: 5px;
 }
 
-label::before {
+.btn-toggle label::before {
   width: 35px;
   padding: 10px 0;
   display: block;
@@ -136,12 +136,12 @@ label::before {
   text-align: center;
 }
 
-label.check::before {
+.btn-toggle label.check::before {
   content: "X";
   color: brown;
 }
 
-label>.text {
+.btn-toggle label>.text {
   display: block;
   flex-grow: 1;
   text-align: center;
@@ -152,23 +152,23 @@ label>.text {
   font-weight: 500;
 }
 
-label:hover,
+.btn-toggle label:hover,
 input:checked+label {
   background: peachpuff;
   border: 1px solid orange;
   color: brown;
 }
 
-label:hover>.text,
+.btn-toggle label:hover>.text,
 input:checked+label>.text {
   color: brown;
 }
 
-input:checked+label {
+.btn-toggle input:checked+label {
   background-color: white;
 }
 
-input:checked+label::before {
+.btn-toggle input:checked+label::before {
   background-color: orange;
 }
 
@@ -197,4 +197,10 @@ input:checked+label::before {
 .border-voo {
   border-left: 1px solid lightgray;
   padding: 1.5rem 0 1.5rem 1.5rem
+}
+
+.font-footer {
+  font-size: 1.5vh;
+  font-weight: normal;
+  text-align: justify;
 }
