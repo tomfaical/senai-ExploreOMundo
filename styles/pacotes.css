@@ -49,27 +49,36 @@ header {
   background: none;
   border: 2px solid orange;
   border-radius: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: 500;
   color: orange;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 .btn-reservar:hover {
   background: peachpuff;
   border: 2px solid orange;
   border-radius: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: 500;
-  color: brown ;
+  color: brown;
 }
 
 .btn-reservar: {
   background: peachpuff;
   border: 2px solid orange;
   border-radius: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-weight: 500;
-  color: brown ;
+  color: brown;
 }
 
-https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate2
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate2 */
+
+
+
+.border-hoteis {
+  border-left: 1px solid lightgray;
+  padding: 1.5rem 1.5rem 1.5rem 1rem
+}
