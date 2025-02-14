@@ -22,6 +22,6 @@ img{
   color: white;
 }
 
-/* {
-  color: #f0941f;
-} */
+.card:hover {
+  transform: scale();
+}
